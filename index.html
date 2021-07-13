@@ -1,0 +1,408 @@
+<!DOCTYPE html> 
+ <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>pac</title>
+	<link rel="stylesheet" type="text/css" href="css/c.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    
+    
+
+    <script src="https://kit.fontawesome.com/8bb5890178.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function showHideDiv(ele) {
+            var srcElement = document.getElementById(ele);
+            
+                if (srcElement.style.display == "none") {
+						srcElement.style.display = 'block';
+					}
+                else {
+                    srcElement.style.display = 'none';
+                }
+                return false;
+            
+        }
+        function showHideDiv2(ele2) {
+            var srcElement = document.getElementById(ele2);
+            
+                if (srcElement.style.display == "block") {
+						srcElement.style.display = 'none';
+					}
+                else {
+                    srcElement.style.display = 'block';
+                }
+                return false;
+            
+        }
+
+        function showHideDiv3(ele3, ele4) {
+            var srcElement = document.getElementById(ele3);
+            
+            
+                
+						srcElement.style.display = 'none';
+                        
+					
+                
+        }
+
+        function showHideDiv4(ele4, ele5){
+            var srcElement = document.getElementById(ele4);
+            var srcElement2 = document.getElementById(ele5);
+            
+                
+            srcElement.style.display = 'none';
+            srcElement2.style.height='2vh';
+        }
+
+        function showHideDiv5(ele5){
+            var srcElement = document.getElementById(ele5);
+            
+                
+            srcElement.style.display = 'block';
+        } 
+        function showHideDiv6(ele6){
+            var srcElement = document.getElementById(ele6);
+            
+                
+            srcElement.style.display = 'none';
+        } 
+
+        function showHideDiv7(ele6, ele7){
+            var srcElement = document.getElementById(ele6);
+            var srcElement2 = document.getElementById(ele7);
+            
+                
+            srcElement.style.display = 'block';
+            srcElement2.style.height= '0vh';
+        } 
+
+       
+       
+       
+
+
+        
+        
+    </script>
+    
+    
+
+    </head>
+ <body onload="showHideDiv3('divMsg2')">
+    <div class="container-fluid" style="background-color: black;">
+    <div class="Navbar">
+        <div class=" Navbar__Link-brand">
+            <img src="photos/logo.jpeg">
+           PAC Security
+         </div>
+         <div class="Navbar__Link Navbar__Link-toggle">
+           <button value="Show/Hide" id="divMsg3" onClick="showHideDiv('divMsg'); showHideDiv2('divMsg2'); showHideDiv4('divMsg3', 'divMsg0');" style="font-size: 35px;"><i class="fas fa-bars fa-2x"></i></button>
+           <button value="Show/Hide"  id="divMsg2" style="font-size: 35px;" onClick="showHideDiv5('divMsg3'); showHideDiv6('divMsg2'); showHideDiv7('divMsg', 'divMsg0')";><i class="fa fa-times fa-2x" aria-hidden="true"></i></button>
+         </div>
+       
+       <nav class="Navbar__Items Navbar__Items--right">
+           
+               
+        <div class="Navbar__Link">
+            <a href="index.html"  style="color: #BF1E2D; text-decoration: none;"><i class="fa fa-home fa-1x" aria-hidden="true"></i>&nbsp;Home</a>
+          </div>
+        
+    
+          <div class="Navbar__Link">
+            <a href="#section1" onclick="show('divMsg0')" style="color: #BF1E2D; text-decoration: none;"><i class="fa fa-cog fa-spin fa-1x fa-fw"></i>&nbsp;Services</a>
+          </div>
+        
+          <div class="Navbar__Link">
+            <a href="#section2"  style="color: #BF1E2D; text-decoration: none;"><i class="fa fa-graduation-cap fa-1x" aria-hidden="true">&nbsp;</i>Trainings</a>
+          </div>
+        
+         <div class="Navbar__Link">
+          <a href="#section3"  style="color:#BF1E2D; text-decoration: none;"> <i class="fa fa-user-circle fa-1x" aria-hidden="true"></i>&nbsp;About Us</a>
+         </div>
+        
+         
+        
+         <div class="Navbar__Link">
+           <a href="#section5"  style="color: #BF1E2D; text-decoration: none;"><i class="fa fa-phone  fa-1x" aria-hidden="true"></i>&nbsp; Contact Us</a>
+          </div>
+        
+         
+       </nav>
+     </div>
+
+
+
+<div class="container-fluid" id="divMsg" style="background-color: #dcdde1;" >
+    
+        <div class="particles-js" id="particles-js"  style="height:100vh"  >
+
+        </div>
+    
+
+
+
+    <div class="container" style="position: absolute;;">
+    <script type="text/javascript" src="js/particles.js"></script>
+             
+             <script type="text/javascript" src="js/app.js"></script>
+    <span class="text1" >PAC Security</span>
+             <span class="text2">Leading Towards Secure Future...</span>
+             
+    
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section style="background-color: #dcdde1;">
+            <h1 class="sec-d-heading" id="section1" >Services</h1>
+            <div class="grid-d">
+                
+                <div class="sec-d">
+
+                    <img src="photos/Screenshot (60).png" alt="pen-test" class="img-d">
+                    <h2>Web Application Penetration Testing</h2>
+                   <br><br>
+                    
+                </div>
+            
+                <div class="sec-d">
+                    <img src="photos/Screenshot (61).png" alt="pen-test" class="img-d">
+                    <h2>Network Penetration Testing</h2> 
+                    <br><br>
+                    
+                </div>
+
+                <div class="sec-d">
+                    <img src="photos/Screenshot (62).png" alt="pen-test" class="img-d">
+                    <h2>Mobile Application Penetration Testing</h2> 
+                    <br><br>
+                    
+                </div>
+
+                <div class="sec-d">
+                    <img src="photos/protect_cube.png" alt="pen-test" class="img-d">
+                    <h2>Malware Analysis</h2> 
+                   <br><br>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+
+        
+
+    
+
+
+
+
+
+<section style="background-color: #dcdde1;">
+
+            <h1 class="sec-e-heading" id="section2">Trainings</h1>
+            <div class="grid-e-1">
+                <div class="sec-e-4-1">
+                    <img src="photos/image-e.png"  alt="image-e">
+                </div>
+                <div class="sec-b-content">
+                    <p>
+                        World is at the verge of Cyber War, Cyber Security Awareness and Training
+                        is the need of the hour, we can train you to become ready with our 
+                        Training Courses, we have spent countless hours in making and perfecting 
+                        these courses which are Up-To-Date, which follow a Practical Approach 
+                        and will teach you how to think like an Attacker so that you can protect 
+                        yourself and organisations from Advanced Persistent Threats.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+<section  style="background-color: #dcdde1;">
+            <h1 class="sec-e-heading">Industrial Trainings</h1>
+            <div class="grid-e-3">
+               
+                <div class="sec-e-3">
+                    <img src="photos/icon-7.svg" alt="pen-test">
+                    <h2>Secure Coding</h2>
+                    
+                </div>
+            
+                <div class="sec-e-3">
+                    <img src="photos/icon-6.svg" alt="pen-test">
+                    <h2>Mobile Penetration Testing </h2>
+                    
+                </div>
+
+                <div class="sec-e-3">
+                    <img src="photos/icon-5.svg" alt="pen-test">
+                    <h2>Cyber Forensics</h2> 
+                    
+                </div>
+            
+            </div>
+        </section>
+
+        <section  style="background-color: #dcdde1;">
+            <h1 class="sec-e-4-1-heading">Corporate Training</h1>
+                <div class="grid-e-4-1">
+                    
+                    <div class="sec-e-4-1">
+                        <img src="photos/icon-8.svg" alt="pen-test">
+                        <h2>Integrated Security Systems & Services</h2>
+                        
+                    </div>
+                
+                    <div class="sec-e-4-1">
+                        <img src="photos/icon-9.svg" alt="pen-test">
+                        <h2>Intrusion Detection Analysis</h2>
+                        
+                    </div>
+    
+                    <div class="sec-e-4-1">
+                        <img src="photos/icon-10.svg" alt="pen-test">
+                        <h2>Information Security</h2> 
+                        
+                    </div>
+                
+                
+                
+
+                
+                    
+                    <div class="sec-e-4-1">
+                        <img src="photos/icon-11.svg" alt="pen-test" >
+                        <h2>Malware Analysis</h2>
+                        
+                    </div>
+                
+                    <div class="sec-e-4-1">
+                        <img src="photos/icon-12.svg" alt="pen-test" >
+                        <h2>Auditing & Monitoring</h2>
+                        
+                    </div>
+                    </div>
+        </section>
+    </section>
+
+
+
+        <section  style="background-color: #dcdde1;" >
+            <h1 class="sec-b-heading" id="section3">About Us</h1>
+            <div class="grid-b">
+                <div class="sec-e-4-1">
+                    <img src="photos/y.png" alt="sec-b-image" >
+                </div>
+                <div class="sec-b-content">
+                    <p>
+                        PAC Security is a Digital Threat Assessment, Cyber Security Consulting and Operational Services company providing services to Businesses, Governments and Institutions nationwide.It is a trusted standard for businesses needing to protect their brands, businesses and dignity from weakening cyber attacks.<br><br>
+                        We as a team helping many organisations to secure their IT infrastructure by carrying out penetration tests for them.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+       
+<div class="contactus" id="section5" >
+    <br><h1>Contact Us</h1>
+    <h4>Get in Touch</h4>
+</div>
+<div class="icon">
+    <a class="btn"  href="#">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a class="btn" href="#">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a class="btn" href="#"><i class="fab fa-google"></i>
+    </a>
+    <a class="btn" href="#">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a class="btn" href="#">
+        <i class="fab fa-youtube"></i>
+    </a>
+    </div>
+<div>
+    <div class="footer"><p style="color: black;"> 2020 Copyright : Pac Security PVT LTD</p><br>
+        <div class="up">
+<a class="btn" href="#top" style="text-decoration: none;">
+        <p style="color: white; "><b>Top<b></p><br>
+        <p><b></b></p>
+    </a>
+        </div>
+    </div>
+    
+</div>
+
+
+
+<script>
+function classToggle() {
+  const navs = document.querySelectorAll('.Navbar__Items')
+  
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
+
+document.querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);
+
+
+
+
+ 
+  </script>
+
+
+
+	</body>
+	</html>
